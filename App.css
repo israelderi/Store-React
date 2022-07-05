@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+body{
+background-color: white; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Product{
+  margin-top: 25px;
+}
+#titel{
+  display:inline ;
+  color: rgb(13, 23, 91);
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+
+}
+#data{
+  display:inline;
+ color: rgb(13, 23, 91);
+ font-size: 30px;
+ align-items: center;
+}
+h1, h2, h3{
+  margin: 0.5rem 0;
+}
+h1{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+h2{
+  font-size: 1.2rem;
+}
+h3{
+  font-size: 1rem;
+}
+a{
+  text-decoration: none;
+  font-size: 40px;
+  color: blue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.col-1{
+  flex: 1;
+}
+.col-2{
+  flex: 2;
+}
+.block{
+  background-color: gainsboro;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 2.5rem;
+}
+.center{
+  align-items: center;
+}
+img{
+  height: 150px;
+  width: 150px;
+
+}
+#addCart{
+  color: white;
+  border-radius: 5rem;
+  background-color: rgb(75, 75, 246);
+  border: 0.1rem rgb(24, 24, 247) solid;
+  width: 150px;
+  height: 30px;
+  
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.ButAdd{
+  background-color: rgb(169, 169, 249);
+  width: 25px;
+  border-radius: 30px;
+  font-size: 15px;
+  color: blue;
+  border: none;
+}
+.ButRemove{
+  background-color: rgb(169, 169, 249);
+  width: 25px;
+  border-radius: 30px;
+  font-size: 15px;
+  color: red;
+  border: none;
+}
+.text-right{
+  text-align: right;
+  color: red;
+}
+.cart{
+  text-align: left;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+#titelCart{
+  font-size: 30px;
+  color: rgb(51, 51, 239);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.badge{
+  color: white;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 27px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: none;
+}
+#logo{
+    width: 300px;
+    height: 300px;
+
+}
+.pay{
+  background-color: rgb(56, 56, 247);
+  width: 120px;
+  height: 30px;
+  border-radius: 40px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  font-family:Arial, Helvetica, sans-serif
+}
+.InpAdd{
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+  background-color: rgb(236, 236, 250);
+}
+.butAddNew{
+  color: white;
+  border-radius: 50px;
+  background-color: rgb(46, 46, 244);
+  border: 0.1rem rgb(24, 24, 247) solid;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+h4{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(36, 36, 247);
+  margin: 2px;
+}
+
+
